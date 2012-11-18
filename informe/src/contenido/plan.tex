@@ -1,0 +1,130 @@
+\section{Plan de Proyecto}
+\subsection{Lista de Casos de Uso}
+
+\uline{\bf{\large{Ciudadano posteador:}}}\\
+\begin{center}
+\begin{tabular}{||l | c||} \hline \hline
+Posteando comentarios en video 2D     &                  140 hs\\
+Posteando comentarios en video 3D      &                 140 hs\\
+Posteando comentarios en sonido         &                90 hs\\
+Posteando comentarios en imagenes        &               110 hs\\
+Posteando comentarios en texto con formato &             50 hs\\
+Posteando comentarios en combinaciones      &            10 hs\\
+Realizando registracion con usuario de nuestro sistema & 40 hs\\
+Realizando login con usuario de nuestro sistema &        20 hs\\
+Realizando login mediante Facebook               &       60 hs\\
+Realizando login mediante Twitter                 &      60 hs\\
+Realizando login mediante Google+                  &     60 hs\\
+Seleccionando el lenguaje que considera ofensivo    &    20 hs\\
+Puntuando usuarios                                   &   40 hs\\
+Haciendo "Me gusta" en un comentario               &     5 hs\\ \hline  \hline
+\end{tabular}
+\end{center}
+
+\noindent{\uline{\bf{\large{Empresa de datamining:}}}}\\
+\begin{center}
+\begin{tabular}{||l | c||} \hline  \hline
+Accediendo a los comentarios de usuarios       &        50 hs\\ \hline \hline
+\end{tabular}
+\end{center}
+
+\noindent{\uline{\bf{\large{Moderador:}}}\\
+\begin{center}
+\begin{tabular}{||l | c||} \hline \hline
+Accediendo a los comentarios no moderados & 60 hs \\
+Moderando comentario &  50 hs   \\ 
+Cargando palabras prohibidas &  60 hs\\
+Cargando excepciones &  60 hs\\ \hline \hline
+\end{tabular}
+\end{center}
+
+\noindent{\uline{\bf{\large{Redes sociales:}}}}\\
+\begin{center}
+\begin{tabular}{||l | c||} \hline  \hline
+Reposteando a redes sociales       &     70 hs   \\ 
+Accediendo comentarios relacionados al post & 40 hs\\
+Logueando un usuario a la red social & 30 hs\\ \hline \hline
+\end{tabular}
+\end{center}
+\newpage
+\noindent{\uline{\bf{\large{Empresa de detección de virus:}}}}\\
+\begin{center}
+\begin{tabular}{||l | c||} \hline  \hline
+Accediendo comentarios de usuarios para analizar   & 30 hs       \\ 
+Recibiendo notificación de presencia de virus  & 20 hs \\ \hline \hline
+\end{tabular}
+\end{center}
+
+\newpage
+
+\subsection{Cronograma}
+
+\subsubsection{Primera iteración}
+
+\noindent{\bf{CU\#01 Posteando comentarios en video 2D}}\\
+Se debe permitir al usuario hacer comentarios ingresando videos en formato tradicional.
+El usuario seleccionará esa opción y luego cargará un video en un formato válido. El usuario debe hacer submit de su video 2D.
+El sistema analizará el formato y contenido del video, y detectará los insultos de acuerdo a los filtros establecidos, indicando mensaje de error en caso de que exista y auditando la justificación en una base de datos.
+En caso de error se dará al usuario la posibilidad de volver a subir su video.
+                  
+\noindent{\bf{CU\#02 Posteando comentarios en video 3D}}\\
+Se debe permitir al usuario hacer comentarios ingresando videos en formato tridimensional.
+El usuario seleccionará esa opción y luego cargará un video en un formato válido. El usuario debe hacer submit de su video 3D.
+El sistema analizará el formato y contenido del video, y detectará los insultos de acuerdo a los filtros establecidos, indicando mensaje de error en caso de que exista y auditando la justificación en una base de datos.
+En caso de error se dará al usuario la posibilidad de volver a subir su video.
+                  
+\noindent{\bf{CU\#03 Posteando comentarios en sonido}}\\
+El usuario podrá subir archivos de sonido conteniendo su comentario.
+El usuario seleccionará esa opción y se le pedirá que cargue un archivo de sonido en un formato válido. El usuario debe hacer submit de su archvio de sonido.
+El sistema analizará el formato y contenido del audio, y detectará los insultos de acuerdo a los filtros establecidos, indicando mensaje de error en caso de que exista y auditando la justificación en una base de datos.
+En caso de error se dará al usuario la posibilidad de volver a subir su audio.
+
+\noindent{\bf{CU\#07 Realizando registración con usuario de nuestro sistema}}\\
+La persona que quiera comentar en el sistema deberá registrarse en sistema. Para eso dispone de un formulario de registración que debe completar con sus datos. El sistema validará el formulario submiteado y los alamacenará en una base de datos en caso de ser correctos o reponderá con un mensaje de error indicando el motivo del rechazo. Si la registración es correcta el usuario recibirá un email en su casilla pidiendo la confirmación de la registración. El sistema deberá encriptar la clave de usuario para que no sea facilmente descubierta.
+
+\noindent{\bf{CU\#08 Realizando login con usuario de nuestro sistema}}\\
+Para loguearse el usuario registrado accede a la pantalla de login ingresando usuario y clave para autenticarse en el sistema. Internamente se cruzará la información ingresada con la alamacenada en base de datos para verificar la identidad del usuario. En caso de ingresar datos incorrectos se le indicará mediante un mensaje. También se debe disponer al usuario un link para que en caso de olvidar su contraseña pueda recuperarla mediante el envío de una clave provisoria a su casilla.
+
+\noindent{\bf{Realizar informe}}\\
+
+\noindent{\bf{Plantear arquitectura del sistema}}\\
+
+\subsubsection{Segunda iteración}
+
+\noindent{\bf{CU\#04 Posteando comentarios en imagenes}}
+
+\noindent{\bf{CU\#05 Posteando comentarios en texto con formato}}
+
+\noindent{\bf{CU\#06 Posteando comentarios en combinaciones}}
+
+\noindent{\bf{CU\#09 Realizando login mediante Facebook}}
+
+\noindent{\bf{CU\#10 Realizando login mediante Twitter}}
+
+\noindent{\bf{CU\#11 Realizando login mediante Google+}}
+
+\noindent{\bf{CU\#12 Seleccionando el lenguaje que considera ofensivo}}
+
+\noindent{\bf{CU\#13 Puntuando usuarios}}
+
+\noindent{\bf{CU\#14 Haciendo "Me gusta" en un comentario}}
+
+\subsubsection{Tercera iteración}
+
+\noindent{\bf{CU\#15 Accediendo a los comentarios no moderados}}
+
+\noindent{\bf{CU\#16 Moderando comentario}}
+
+\noindent{\bf{CU\#17 Cargando palabras prohibidas}}
+
+\noindent{\bf{CU\#18 Reposteando a redes sociales}} 
+
+\noindent{\bf{CU\#19 Accediendo comentarios relacionados al post}}
+
+\noindent{\bf{CU\#20 Logueando un usuario en una red social}}
+
+\noindent{\bf{CU\#21 Accediendo comentarios de usuarios}}
+
+\noindent{\bf{CU\#22 Recibiendo notificación de presencia de virus}}
+
+\noindent{\bf{CU\#23 Cargando excepciones}}

@@ -1,0 +1,30 @@
+Casos de uso
+
+Ciudadano posteador
+----------------------
+Posteando comentarios en video 2D                       80 hs
+Posteando comentarios en video 3D                       80 hs
+Posteando comentarios en sonido                         20 hs
+Posteando comentarios en imagenes                       20 hs
+Posteando comentarios en texto con formato              10 hs
+Posteando comentarios en combinaciones      
+Realizando registracion con usuario de nuestro sistema
+Realizando login con usuario de nuestro sistema         30 hs
+Realizando login mediante Facebook                      10 hs
+Realizando login mediante Twitter                       10 hs
+Realizando login mediante Google+                       10 hs
+Seleccionando el lenguaje que considera ofensivo        100 hs
+Puntuando usuarios                                      10 hs
+Haciendo "Me gusta" en un comentario                    10 hs
+
+Empresa de datamining
+-------------------------
+Accediendo a los comentarios no moderados               ? hs
+
+Moderador
+---------
+Moderando comentario                                    90 hs
+Cargando palabras prohibidas (Seria necesario un ABM de palabras de palabras prohibidas)
+Cargando excepciones (Seria necesario un ABM de palabras de excepciones)
+
+
